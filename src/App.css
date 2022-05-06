@@ -1,0 +1,37 @@
+.App__title {
+  text-align: center;
+  color: #137ee8f9;
+}
+.App__waiter-name {
+  display: inline-block;
+}
+.App__waiter-name:hover,
+.App__waiters-menu:hover {
+  color: #137de8;
+}
+.App__waiters-menu--active {
+  color: #137de8;
+  font-weight: bold;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.App__food-add-form {
+  margin: 0 10px;
+}
+.App__waiter-add-form,
+.App__food-add-form {
+  width: 250px;
+  font-size: 16px;
+  padding: 8px 6px;
+}
+.App__waiter-add-form-error-validate {
+  width: 300px;
+  font-size: 15px;
+  color: red;
+}
+.App__waiter-name-title {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #1976d297;
+}
